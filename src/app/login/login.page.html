@@ -1,0 +1,28 @@
+<ion-content [fullscreen]="true" class="login-content">
+  <ion-card class="login-card">
+    <div class="logo-container">
+      <ion-img src="../assets/image/logo2.png" class="logo"></ion-img>
+      <p class="login-text">Silahkan Login</p>
+    </div>
+
+    <ion-item class="white-background">
+      <ion-label position="floating" class="white-text">
+        <ion-icon name="person" slot="start"></ion-icon>
+        NPM 
+      </ion-label>
+      <ion-input type="text" [(ngModel)]="username" placeholder="Masukkan NPM"></ion-input>
+    </ion-item>
+    
+    <ion-item class="white-background">
+      <ion-label position="floating" class="white-text">
+        <ion-icon name="mail" slot="start"></ion-icon>
+        Email
+      </ion-label>
+      <ion-input type="text" [(ngModel)]="email" placeholder="Masukkan Email"></ion-input>
+    </ion-item>
+    
+    
+
+    <ion-button expand="full" (click)="login()">Login</ion-button>
+  </ion-card>
+</ion-content>

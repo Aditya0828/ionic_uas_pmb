@@ -1,0 +1,55 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="primary">
+    <ion-title class="ion-text-center">
+      Status
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content [fullscreen]="true" class="custom-scroll">
+  <div class="header-container">
+  <h2 class="custom-header">Data Calon Mahasiswa Mendaftar</h2>
+    <ion-searchbar [(ngModel)]="searchTerm" (ionChange)="ffilterData()"></ion-searchbar>
+  </div>
+  <div class="scrollable-table-container">
+    <ion-card *ngFor="let data of allData" class="custom-card">
+      <ion-card-content>
+        <ion-grid>
+          <ion-row>
+            <ion-col>
+              <ion-label>No</ion-label>
+              <p>{{ data.no }}</p>
+            </ion-col>
+            <ion-col>
+              <ion-label>Reg ID</ion-label>
+              <p>{{ data.reg_id }}</p>
+            </ion-col>
+            <ion-col>
+              <ion-label>Password</ion-label>
+              <p>{{ data.password }}</p>
+            </ion-col>
+          </ion-row>
+          <ion-row>
+            <ion-col>
+              <ion-label>Email</ion-label>
+              <p>{{ data.email }}</p>
+            </ion-col>
+            <ion-col>
+              <ion-label>Nama</ion-label>
+              <p>{{ data.nama_lengkap }}</p>
+            </ion-col>
+            <ion-col>
+              <ion-label>Status</ion-label>
+              <p [ngClass]="{'status-ok': data.status === '1', 'status-menunggu': data.status === '0'}">
+                <span *ngIf="data.status === '1' ">Verifikasi Pendaftaran Ok</span>
+                <span *ngIf="data.status === '0' ">Menunggu Verifikasi Pendaftaran</span>
+              </p>
+            </ion-col>
+          </ion-row>
+        </ion-grid>
+      </ion-card-content>
+    </ion-card>
+  </div>
+  <ion-refresher slot="fixed" (ionRefresh)="handleRefresh($event)">
+    <ion-refresher-content></ion-refresher-content>
+  </ion-refresher>
+</ion-content>

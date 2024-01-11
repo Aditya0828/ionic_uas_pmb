@@ -1,0 +1,55 @@
+[06-Jan-2024 04:24:35 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_array(): Argument #1 ($result) must be of type mysqli_result, bool given in /home/praktikum/public_html/api_uas/get_data_mahasiswa.php:13
+Stack trace:
+#0 /home/praktikum/public_html/api_uas/get_data_mahasiswa.php(13): mysqli_fetch_array(false)
+#1 {main}
+  thrown in /home/praktikum/public_html/api_uas/get_data_mahasiswa.php on line 13
+[06-Jan-2024 04:25:04 UTC] PHP Warning:  Undefined array key "nama_lengkap" in /home/praktikum/public_html/api_uas/tambah.php on line 10
+[06-Jan-2024 04:25:04 UTC] PHP Warning:  Undefined array key "jenis_kelamin" in /home/praktikum/public_html/api_uas/tambah.php on line 10
+[06-Jan-2024 04:25:04 UTC] PHP Warning:  Undefined array key "no_handphone" in /home/praktikum/public_html/api_uas/tambah.php on line 10
+[06-Jan-2024 04:25:04 UTC] PHP Warning:  Undefined array key "email" in /home/praktikum/public_html/api_uas/tambah.php on line 10
+[06-Jan-2024 04:25:04 UTC] PHP Warning:  Undefined array key "asal_sekolah" in /home/praktikum/public_html/api_uas/tambah.php on line 10
+[06-Jan-2024 04:25:04 UTC] PHP Warning:  Undefined array key "program_studi" in /home/praktikum/public_html/api_uas/tambah.php on line 10
+[06-Jan-2024 04:25:04 UTC] PHP Warning:  Undefined array key "jenjang" in /home/praktikum/public_html/api_uas/tambah.php on line 10
+[06-Jan-2024 04:25:04 UTC] PHP Warning:  Undefined array key "kelas" in /home/praktikum/public_html/api_uas/tambah.php on line 10
+[06-Jan-2024 04:25:04 UTC] PHP Warning:  Undefined array key "info_kampus" in /home/praktikum/public_html/api_uas/tambah.php on line 10
+[06-Jan-2024 04:25:13 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_array(): Argument #1 ($result) must be of type mysqli_result, bool given in /home/praktikum/public_html/api_uas/get_data_mahasiswa.php:13
+Stack trace:
+#0 /home/praktikum/public_html/api_uas/get_data_mahasiswa.php(13): mysqli_fetch_array(false)
+#1 {main}
+  thrown in /home/praktikum/public_html/api_uas/get_data_mahasiswa.php on line 13
+[06-Jan-2024 06:45:18 UTC] PHP Warning:  Undefined array key "nama_lengkap" in /home/praktikum/public_html/api_uas/tambah.php on line 10
+[06-Jan-2024 06:45:18 UTC] PHP Warning:  Undefined array key "jenis_kelamin" in /home/praktikum/public_html/api_uas/tambah.php on line 10
+[06-Jan-2024 06:45:18 UTC] PHP Warning:  Undefined array key "no_handphone" in /home/praktikum/public_html/api_uas/tambah.php on line 10
+[06-Jan-2024 06:45:18 UTC] PHP Warning:  Undefined array key "email" in /home/praktikum/public_html/api_uas/tambah.php on line 10
+[06-Jan-2024 06:45:18 UTC] PHP Warning:  Undefined array key "asal_sekolah" in /home/praktikum/public_html/api_uas/tambah.php on line 10
+[06-Jan-2024 06:45:18 UTC] PHP Warning:  Undefined array key "program_studi" in /home/praktikum/public_html/api_uas/tambah.php on line 10
+[06-Jan-2024 06:45:18 UTC] PHP Warning:  Undefined array key "jenjang" in /home/praktikum/public_html/api_uas/tambah.php on line 10
+[06-Jan-2024 06:45:18 UTC] PHP Warning:  Undefined array key "kelas" in /home/praktikum/public_html/api_uas/tambah.php on line 10
+[06-Jan-2024 06:45:18 UTC] PHP Warning:  Undefined array key "info_kampus" in /home/praktikum/public_html/api_uas/tambah.php on line 10
+[06-Jan-2024 06:49:46 UTC] PHP Warning:  Undefined array key "nama_lengkap" in /home/praktikum/public_html/api_uas/tambah.php on line 10
+[06-Jan-2024 06:49:46 UTC] PHP Warning:  Undefined array key "jenis_kelamin" in /home/praktikum/public_html/api_uas/tambah.php on line 10
+[06-Jan-2024 06:49:46 UTC] PHP Warning:  Undefined array key "no_handphone" in /home/praktikum/public_html/api_uas/tambah.php on line 10
+[06-Jan-2024 06:49:46 UTC] PHP Warning:  Undefined array key "email" in /home/praktikum/public_html/api_uas/tambah.php on line 10
+[06-Jan-2024 06:49:46 UTC] PHP Warning:  Undefined array key "asal_sekolah" in /home/praktikum/public_html/api_uas/tambah.php on line 10
+[06-Jan-2024 06:49:46 UTC] PHP Warning:  Undefined array key "program_studi" in /home/praktikum/public_html/api_uas/tambah.php on line 10
+[06-Jan-2024 06:49:46 UTC] PHP Warning:  Undefined array key "jenjang" in /home/praktikum/public_html/api_uas/tambah.php on line 10
+[06-Jan-2024 06:49:46 UTC] PHP Warning:  Undefined array key "kelas" in /home/praktikum/public_html/api_uas/tambah.php on line 10
+[06-Jan-2024 06:49:46 UTC] PHP Warning:  Undefined array key "info_kampus" in /home/praktikum/public_html/api_uas/tambah.php on line 10
+[06-Jan-2024 09:41:57 UTC] PHP Warning:  Undefined array key "nama_lengkap" in /home/praktikum/public_html/api_uas/tambah.php on line 10
+[06-Jan-2024 09:41:57 UTC] PHP Warning:  Undefined array key "jenis_kelamin" in /home/praktikum/public_html/api_uas/tambah.php on line 10
+[06-Jan-2024 09:41:57 UTC] PHP Warning:  Undefined array key "no_handphone" in /home/praktikum/public_html/api_uas/tambah.php on line 10
+[06-Jan-2024 09:41:57 UTC] PHP Warning:  Undefined array key "email" in /home/praktikum/public_html/api_uas/tambah.php on line 10
+[06-Jan-2024 09:41:57 UTC] PHP Warning:  Undefined array key "asal_sekolah" in /home/praktikum/public_html/api_uas/tambah.php on line 10
+[06-Jan-2024 09:41:57 UTC] PHP Warning:  Undefined array key "program_studi" in /home/praktikum/public_html/api_uas/tambah.php on line 10
+[06-Jan-2024 09:41:57 UTC] PHP Warning:  Undefined array key "jenjang" in /home/praktikum/public_html/api_uas/tambah.php on line 10
+[06-Jan-2024 09:41:57 UTC] PHP Warning:  Undefined array key "kelas" in /home/praktikum/public_html/api_uas/tambah.php on line 10
+[06-Jan-2024 09:41:57 UTC] PHP Warning:  Undefined array key "info_kampus" in /home/praktikum/public_html/api_uas/tambah.php on line 10
+[10-Jan-2024 14:38:21 UTC] PHP Warning:  Undefined array key "nama_lengkap" in /home/praktikum/public_html/api_adityaa/api_uass/tambah.php on line 10
+[10-Jan-2024 14:38:21 UTC] PHP Warning:  Undefined array key "jenis_kelamin" in /home/praktikum/public_html/api_adityaa/api_uass/tambah.php on line 10
+[10-Jan-2024 14:38:21 UTC] PHP Warning:  Undefined array key "no_handphone" in /home/praktikum/public_html/api_adityaa/api_uass/tambah.php on line 10
+[10-Jan-2024 14:38:21 UTC] PHP Warning:  Undefined array key "email" in /home/praktikum/public_html/api_adityaa/api_uass/tambah.php on line 10
+[10-Jan-2024 14:38:21 UTC] PHP Warning:  Undefined array key "asal_sekolah" in /home/praktikum/public_html/api_adityaa/api_uass/tambah.php on line 10
+[10-Jan-2024 14:38:21 UTC] PHP Warning:  Undefined array key "program_studi" in /home/praktikum/public_html/api_adityaa/api_uass/tambah.php on line 10
+[10-Jan-2024 14:38:21 UTC] PHP Warning:  Undefined array key "jenjang" in /home/praktikum/public_html/api_adityaa/api_uass/tambah.php on line 10
+[10-Jan-2024 14:38:21 UTC] PHP Warning:  Undefined array key "kelas" in /home/praktikum/public_html/api_adityaa/api_uass/tambah.php on line 10
+[10-Jan-2024 14:38:21 UTC] PHP Warning:  Undefined array key "info_kampus" in /home/praktikum/public_html/api_adityaa/api_uass/tambah.php on line 10
